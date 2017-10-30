@@ -1,0 +1,5 @@
+<launch>
+ <include file="$(find urg_node)/launch/urg_lidar.launch"/>
+ <include file="$(find slam)/param/demo_slam.xml"/>
+ 
+</launch>
